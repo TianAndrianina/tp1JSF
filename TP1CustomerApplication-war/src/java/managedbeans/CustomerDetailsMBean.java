@@ -15,7 +15,7 @@ import session.CustomerManager;
 /**
  * Backing bean pour la page CustomerDetails.xhtml.
  */
-@Named
+@Named(value = "customerDetailsMBean")
 @ViewScoped
 public class CustomerDetailsMBean implements Serializable {
   private int idCustomer;
